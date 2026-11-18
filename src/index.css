@@ -1,0 +1,19 @@
+/* Estilos generales de toda la página */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  font-size: 16px;
+  color: #263238;
+  background-color: #f4f6f4;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

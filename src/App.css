@@ -1,0 +1,66 @@
+/* Estilos de la página principal (App.jsx) */
+.pagina {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.seccion {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 20px 30px;
+  text-align: center;
+}
+
+.titulo-seccion {
+  font-size: 30px;
+  color: #1b5e20;
+  margin-bottom: 8px;
+}
+
+.texto-seccion {
+  color: #546e7a;
+  margin-bottom: 30px;
+}
+
+.mensaje {
+  display: inline-block;
+  background-color: #e8f5e9;
+  border-left: 5px solid #2e7d32;
+  color: #1b5e20;
+  padding: 10px 18px;
+  border-radius: 6px;
+  margin-bottom: 25px;
+}
+
+/* Los módulos se muestran uno debajo de otro */
+.lista-modulos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+/* Las tarifas se acomodan una al lado de otra y bajan si no caben */
+.seccion-tarifas {
+  padding-bottom: 60px;
+}
+
+.lista-tarifas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.pie-pagina {
+  background-color: #1b5e20;
+  color: #ffffff;
+  text-align: center;
+  padding: 18px;
+  font-size: 14px;
+}

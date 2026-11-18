@@ -1,0 +1,43 @@
+/* Estilos del componente Encabezado */
+.encabezado {
+  background-image: linear-gradient(rgba(27, 94, 32, 0.75), rgba(27, 94, 32, 0.75)),
+    url('/imagenes/parqueadero.png');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.barra-navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+}
+
+.marca {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.enlaces a {
+  margin-left: 25px;
+  font-weight: 600;
+}
+
+.enlaces a:hover {
+  text-decoration: underline;
+}
+
+.portada {
+  text-align: center;
+  padding: 70px 20px 90px;
+}
+
+.portada h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.portada p {
+  font-size: 20px;
+}
