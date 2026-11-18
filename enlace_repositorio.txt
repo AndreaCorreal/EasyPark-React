@@ -1,0 +1,11 @@
+Evidencia GA7-220501096-AA4-EV03
+Componente front-end del proyecto formativo - Easy Park en React JS
+Aprendiz: Andrea Correal
+Ficha: 3186667
+
+Repositorio en GitHub:
+https://github.com/AndreaCorreal/EasyPark-React
+
+Para ejecutar el proyecto:
+npm install
+npm run dev
